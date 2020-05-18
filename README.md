@@ -20,3 +20,6 @@ chmod 600 sendxmpp.sh
 Navigate in Zabbix *Adminstration -> Media Types*, create a new media type with Type set to *script*, Script set to *sendxmpp.sh* and three parameters: {ALERT.SENDTO}, {ALERT.SUBJECT}, {ALERT.MESSAGE}.
 
 ![Create new media type](https://wiki.profoxi.de/wp-content/uploads/2020/05/zabbix-media-xmpp-screens/02.png)
+
+5. Navigate to *Configuration -> Users*, click on a username e.g. admin, navigate to the Media tab and add a new one. Configured the *send to* field.
+![Create new media type](https://wiki.profoxi.de/wp-content/uploads/2020/05/zabbix-media-xmpp-screens/03.png)
